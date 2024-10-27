@@ -1,0 +1,234 @@
+.card {
+    border: 1px solid #302525;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #000;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
+}
+
+.card .card-img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.card .card-title {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #414040;
+}
+
+.card .card-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f1d1db8;
+}
+
+a {
+    text-decoration: none;
+}
+
+.student {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin: 10px;
+}
+
+.student p {
+    margin: 0;
+    width: 250px;
+    padding: 2px;
+}
+
+.welcome-mes {
+    background: #49de5d;
+    margin: 0;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+.login-prm{
+    background: #de2727;
+    margin: 0;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+.list-category {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border: 3px solid;
+    border-radius: 5px;
+    background: #49dbeb;
+    padding: 3px;
+    display: inline-block;
+    color: white
+}
+
+.counter-container{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+
+}
+
+.count-display{
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.counter-button{
+    width: 100px;
+    height: 35px;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 5px;
+    cursor: pointer;
+    background: #2cfffb;
+    border-radius: 5px;
+}
+
+.counter-button:hover{
+    background: #3edfdd;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-picker-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-picker-container h1{
+    margin: 20px;
+    font-size: 2em;
+}
+
+.color-display{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #ccc;
+}
+
+.color-display p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.color-picker-container label{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type='color']{
+    width: 75px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid #ccc;
+}
+
+input.color-choose{
+    width: 100px;
+    height: 25px;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.to-do-list {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.to-do-list h1{
+    font-size: 4rem;
+}
+
+.to-do-list button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.add-button{
+    background: rgb(31, 180, 31);
+}
+
+.add-button:hover{
+    background: rgb(25, 130, 25);
+}
+
+.delete-button{
+    background: rgb(223, 49, 49);
+}
+
+.delete-button:hover{
+    background: rgb(184, 40, 40);
+}
+
+.move-button{
+    background: rgb(49, 188, 223);
+}
+
+.move-button:hover{
+    background: rgb(37, 141, 167);
+}
+
+.to-do-list input[type="text"] {
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.to-do-list ol {
+    padding: 0;
+}
+
+.to-do-list li {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    background: #bbb3b3;
+    /* display: flex; */
+    align-items: center;
+    /* display: inline-block; */
+}
+
+.delete-button, .move-button{
+    margin-left: 10px;
+    font-size: 1.4rem;
+    padding: 8px 12px;
+}
